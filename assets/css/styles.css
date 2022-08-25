@@ -10,8 +10,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  background-image: url("../img/liquid-cheese.svg");
+section {
+  min-height: 100vh;
+  background-image: url(../img/liquid-cheese.svg);
   background-size: cover;
 }
 
