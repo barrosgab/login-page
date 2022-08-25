@@ -1,0 +1,73 @@
+:root {
+  --bg-white: #fff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url(../img/liquid-cheese.svg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--bg-white);
+}
+
+h2 {
+  font-size: 15px;
+  color: var(--bg-white);
+}
+
+.container-login {
+  position: absolute;
+  top: 50%;
+  margin-top: -225px;
+  left: 50%;
+  margin-left: -175px;
+
+  height: 450px;
+  width: 350px;
+  padding: 40px 35px;
+  border-radius: 8px;
+  background-color: rgba(168, 166, 166, 0.459);
+}
+
+
+.card-login {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-login {
+  margin-top: 20px;
+
+}
+
+.form-login label {
+  font-size: 12px;
+  color: var(--bg-white);
+}
+
+
+.btn-sign {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn-sign button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: 0px;
+}
